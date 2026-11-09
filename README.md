@@ -1,0 +1,1 @@
+nie czaj sie tu za dlugo tylko wchodz na https://4tymp.github.io/page/ ziomek!
