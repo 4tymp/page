@@ -22,21 +22,26 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#stronatmp{
-    width: 60%;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 105px;
+#stronatmp {
+    width: 95%;
+    max-width: 1000px; 
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
 }
-#stronatmp h1{
+#stronatmp h1 {
     font-size: 280%;
     margin: 0;
     font-family: fantasy;
+    text-align: center;
 }
-#stronatmp img{
-    height: 100px;
-    width: 179px;
+#stronatmp img {
+    width: 25%; 
+    max-width: 179px;
+    height: auto; 
 }
 
 main{
