@@ -1,3 +1,28 @@
 body{
+    
+}
+header{
+    background-color: #000082;
+    color: white;
+    padding: 5px;
     text-align: center;
+}
+#witamy{
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    line-height: 90px;
+}
+#witamy img{
+    height: 100px;
+    width: 200px;
+}
+#pierwszykot{
+    float: left;
+}
+#drugikot{
+    float: right;
+}
+.clearfloat{
+    float: none;
 }
