@@ -17,7 +17,7 @@ body{
     border-radius: 8px;
 
 }
-header{
+header#hbig{
     background: linear-gradient(to bottom, 
         #2e53f0 0%, 
         #6384ff 12%,
@@ -57,4 +57,41 @@ main{
     background-color: white;
     min-height: 80vh;
 
+    display: flex;
+}
+
+nav#menu{
+    width: 15%;
+
+    background: linear-gradient(to right top, #5468D4, #899BFD);
+    
+    margin-left: auto; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+article{
+    width: 85%
+}
+
+.nback{
+    background: linear-gradient(to right top, #D2D8FC ,#D3D9FC);
+}
+
+header#hnav{
+    width: 80%;
+    margin: 5%;
+    border-radius: 8px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.pwd{
+    color: red;
+    font-family: monospace;
 }
