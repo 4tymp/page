@@ -77,21 +77,31 @@ article{
     width: 85%
 }
 
-.nback{
-    background: linear-gradient(to right top, #D2D8FC ,#D3D9FC);
-}
-
 header#hnav{
-    width: 80%;
-    margin: 5%;
-    border-radius: 8px;
+    width: 90%;
+    margin-top: 5%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     padding: 2%;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+
+    background-color: #0831D9;
+    font-family: monospace;
+    color: white;
 }
 
-.pwd{
-    color: red;
-    font-family: monospace;
+aside#nlist{
+    background: linear-gradient(to right top, #D2D8FC ,#D3D9FC);
+    display:unset;
+
+    text-align: center;
+    width: 86%;
+    padding: 4%;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    align-items: center;
 }
