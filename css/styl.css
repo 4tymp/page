@@ -57,4 +57,23 @@ main{
     background-color: white;
     min-height: 80vh;
 
+    display: flex;
+}
+
+nav{
+    width: 15%;
+
+    background: linear-gradient(to right top, #5468D4, #899BFD);
+    
+    margin-left: auto; 
+    
+    /* Dodajemy display: flex, ponieważ same justify i align bez tego nie zadziałają wewnątrz nav: */
+    display: flex;
+    flex-direction: column; /* Układa przyszłe linki w menu pionowo (jeden pod drugim) */
+    justify-content: flex-start; /* Linki zaczną się od góry */
+    align-items: center; /* Wyśrodkuje linki w poziomie wewnątrz paska */
+}
+
+article{
+    width: 85%
 }
