@@ -22,36 +22,30 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#stronatmp{
-    width: 90%;
-    max-width: 1100px;     
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;     
+#stronatmp {
+    width: 95%;
+    max-width: 1000px; 
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
 }
-#stronatmp h1{
-    font-size: clamp(20px, 6vw, 45px);  
+#stronatmp h1 {
+    font-size: 280%;
     margin: 0;
     padding-top: 2%;
     font-family: fantasy;
+    text-align: center;
 }
-#stronatmp img{
-    width: 179px;          
-    max-width: 25%;        
-    height: auto;          
-}
-#pierwszykot{
-    float: left;
-}
-#drugikot{
-    float: right;
+#stronatmp img {
+    width: 25%; 
+    max-width: 179px;
+    height: auto; 
 }
 
 main{
     background-color: white;
     min-height: 80vh;
-}
-
-.clearfloat{
-    clear: both;
 }
