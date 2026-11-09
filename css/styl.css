@@ -104,4 +104,11 @@ aside#nlist{
     border-bottom-right-radius: 8px;
     
     align-items: center;
+
+    text-decoration: none;
+}
+#nlist a{
+    text-decoration: none;
+    color: blue;
+
 }
