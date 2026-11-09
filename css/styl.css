@@ -96,7 +96,7 @@ aside#nlist{
     background: linear-gradient(to right top, #D2D8FC ,#D3D9FC);
     display:unset;
 
-    text-align: center;
+    text-align: left;
     width: 86%;
     padding: 4%;
 
@@ -104,4 +104,25 @@ aside#nlist{
     border-bottom-right-radius: 8px;
     
     align-items: center;
+
+    text-decoration: none;
+}
+#nlist a{
+    text-decoration: none;
+    color: blue;
+}
+#ldom{
+    list-style-image: url("../img/dom_p3.ico");
+}
+#lhl{
+    list-style-image: url("../img/homelab_p1.ico");
+}
+#lgh{
+    list-style-image: url("../img/github_p1.ico");
+}
+#lig{
+    list-style-image: url("../img/instagram_p1.ico");
+}
+#lsp{
+    list-style-image: url("../img/spotify_p1.ico");
 }
