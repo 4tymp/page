@@ -5,16 +5,23 @@ header{
     background-color: #0831D9;
     color: white;
     text-align: center;
+    padding-bottom: 10px;
+
 }
 #witamy{
     width: 60%;
-    height: 10%;
-    margin: auto;
-    line-height: 90px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 95px;
+}
+#witamy h1{
+    font-size: 200%;
+    margin: 0;
 }
 #witamy img{
     height: 100px;
-    width: 200px;
+    width: 179px;
 }
 #pierwszykot{
     float: left;
@@ -25,7 +32,7 @@ header{
 
 main{
     background-color: white;
-    width: 99%;
+    width: 99.99%;
     height: 700px;
     margin: auto;
 }
