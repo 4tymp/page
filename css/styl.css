@@ -13,10 +13,17 @@ body{
     max-width: none;
     margin: 10px auto;
     background-color: #0831D9;
-    padding: 0 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 8px;
+
 }
 header{
-    background-color: #0831D9;
+    background: linear-gradient(to bottom, 
+        #2e53f0 0%, 
+        #6384ff 12%,
+        #0831D9 45%,
+        #041a7a 100%  
+    );
     color: white;
     text-align: center;
     padding-top: 10px;
@@ -49,4 +56,5 @@ header{
 main{
     background-color: white;
     min-height: 80vh;
+
 }
