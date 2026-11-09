@@ -38,12 +38,6 @@ header{
     height: 100px;
     width: 179px;
 }
-#pierwszykot{
-    float: left;
-}
-#drugikot{
-    float: right;
-}
 
 main{
     background-color: white;
