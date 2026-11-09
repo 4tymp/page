@@ -1,15 +1,14 @@
 body{
-    
+    background-color: #0831D9;
 }
 header{
-    background-color: #000082;
+    background-color: #0831D9;
     color: white;
-    padding: 5px;
     text-align: center;
 }
 #witamy{
     width: 60%;
-    height: 100px;
+    height: 10%;
     margin: auto;
     line-height: 90px;
 }
@@ -22,6 +21,13 @@ header{
 }
 #drugikot{
     float: right;
+}
+
+main{
+    background-color: white;
+    width: 99%;
+    height: 700px;
+    margin: auto;
 }
 .clearfloat{
     float: none;
